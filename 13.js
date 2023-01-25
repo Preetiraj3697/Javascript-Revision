@@ -6,3 +6,5 @@
 // null
 // undefined
 //0
+
+// remaider all have truthy value
