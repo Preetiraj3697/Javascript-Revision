@@ -3,7 +3,7 @@
 // else if
 // else
 
-let tempInDegree = 15;
+let tempInDegree = 35;
 if(tempInDegree<0){
     console.log("extremely cold outside");
 }else if(tempInDegree<16){
