@@ -19,3 +19,8 @@ array1.push('item3');
 console.log('after pushing element to array1')
 console.log('value is array1 is ', array1);
 console.log('value is array2 is', array2);
+
+
+// primitive
+// store in stack 
+// stack is storing data
