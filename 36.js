@@ -7,8 +7,10 @@
 // how to create objects
 const person = {name:"Preeti",age:22}; // object literal
 console.log(person);
-console.log(typeof person);
+// console.log(typeof person); // object
 
 // how to access data from objects
+console.log(person.name);
+console.log(person.age);
 
 // hwo to add key value pair to objects
