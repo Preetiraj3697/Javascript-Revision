@@ -9,7 +9,7 @@ let num2 = num1;
 // console.log("value is num1 is", num1); //7
 // console.log("value is num2 is ", num2); //6
 
-// reference data types
+// reference data types // muteable
 // array
 let array1 = ['item1','item2'];
 let array2 = array1;
