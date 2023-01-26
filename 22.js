@@ -4,3 +4,6 @@
 for(let i=0; i<=9; i++){
     console.log(i);
 }
+
+console.log(i);
+//22.js:8 Uncaught ReferenceError: i is not defined
