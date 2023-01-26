@@ -24,3 +24,6 @@ console.log('value is array2 is', array2);
 // primitive
 // store in stack 
 // stack is storing data
+
+// reference types
+// store in heap
