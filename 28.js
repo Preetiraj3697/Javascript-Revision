@@ -27,3 +27,4 @@ console.log('value is array2 is', array2);
 
 // reference types
 // store in heap
+// like a node
