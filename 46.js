@@ -35,3 +35,17 @@ const fun = (arr,target) =>{
  }
 
  console.log('PrintIndex: ', PrintIndex("Preeti","e"));
+
+
+//  const isEven =  function(number){
+//     return number%2==0? true: false;
+//  }
+//  console.log(isEven(4)) // true
+//===================================
+// const isEven = (number) => {
+//     return number%2==0?true:false;
+// }
+// console.log(isEven(4)) // true
+//====================
+const isEven = number => number%2===0;
+console.log(isEven(4)) // true
