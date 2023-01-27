@@ -1,4 +1,4 @@
-// functions
+// functions declartion
 // like labaour
 
 // console.log("happy birthday to you ......");
