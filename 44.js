@@ -51,3 +51,23 @@ function IsEven(num){
 }
 
 console.log(IsEven(4)); // true
+
+// input: string
+// output: firstCharacter
+function firstChar(str){
+    return str[0];
+}
+console.log(firstChar("abc")) //a
+
+// input : array, target: (num)
+// find target in array
+// output : index of target if target present in array else -1
+function fun(arr,target){
+   for(let i=0; i<arr.length; i++){
+    if(arr[i]===target){
+        return i;
+    }
+   }
+   return -1;
+}
+console.log(fun([1,2,3,4,5],4)); // 3
