@@ -18,6 +18,26 @@ singHappyBirthday();
 function twoPlusFour(){
   return 2+4;
 }
-console.log(twoPlusFour());
+console.log(twoPlusFour()); // 6
 
 //dry don't repeat yourself
+
+const returnedValue = twoPlusFour();
+console.log(returnedValue);  //6
+
+function sumTwoNumbers(num1,num2){ // parameter
+    return num1+num2 // 4+5
+}
+const returnValue = sumTwoNumbers(4,5); // argument
+console.log('returnValue: ', returnValue);  // returnValue:  9
+
+// console.log(undefined+undefined) // NaN
+
+
+function sumThreeNumbers(num1,num2,num3){
+    return num1+num2+num3; // 3+6+9
+}
+const returnThreeValue = sumThreeNumbers(3,6,9);
+console.log('returnThreeValue: ', returnThreeValue);  // returnThreeValue:  18
+
+console.log(1+2+undefined) // NaN
