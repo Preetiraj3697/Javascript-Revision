@@ -41,3 +41,13 @@ const returnThreeValue = sumThreeNumbers(3,6,9);
 console.log('returnThreeValue: ', returnThreeValue);  // returnThreeValue:  18
 
 console.log(1+2+undefined) // NaN
+
+// od or even
+// input 1 number
+// output true if number is even : false
+
+function IsEven(num){
+    return num%2==0 ? true : false;  // ternary operator
+}
+
+console.log(IsEven(4)); // true
