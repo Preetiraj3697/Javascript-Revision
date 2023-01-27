@@ -16,6 +16,8 @@ singHappyBirthday();
 singHappyBirthday();
 
 function twoPlusFour(){
-  console.log(2+4);
+  return 2+4;
 }
-twoPlusFour()
+console.log(twoPlusFour());
+
+//dry don't repeat yourself
