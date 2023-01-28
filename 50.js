@@ -61,3 +61,14 @@ function myApp(){
 
 }
 myApp();
+
+
+/** @format */
+
+function Fun(msg) {
+    return function (name) {
+      return msg + name;
+    };
+  }
+  let myFunc = Fun("Hey ");
+  console.log(myFunc("Dude")); // Hey Dude
