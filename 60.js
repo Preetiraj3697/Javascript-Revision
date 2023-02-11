@@ -49,3 +49,58 @@ numbers.sort((a,b)=>{
     return b-a;
 })
 console.log(numbers);  // [1500, 1200, 500, 140, 9, 5]
+// price lowToHigh HighToLow
+const products = [
+    {productID:1,productName:"Pl",price:300},
+    {productID:2,productName:"P2",price:3000},
+    {productID:3,productName:"P3",price:309},
+    {productID:4,productName:"P4",price:500},
+    {productID:5,productName:"P5",price:100},
+]
+// lowToHigh;
+products.sort((a,b)=>{
+    return a.price-b.price;
+})
+console.log(products);
+//0
+// : 
+// {productID: 5, productName: 'P5', price: 100}
+// 1
+// : 
+// {productID: 1, productName: 'Pl', price: 300}
+// 2
+// : 
+// {productID: 3, productName: 'P3', price: 309}
+// 3
+// : 
+// {productID: 4, productName: 'P4', price: 500}
+// 4
+// : 
+// {productID: 2, productName: 'P2', price: 3000}
+// length
+// : 
+// 5
+// [[Prototype]]
+// : 
+// Array(0)
+
+// HighToLow
+products.sort((a,b)=>{
+    return b.price-a.price;
+})
+console.log(products);
+// 0
+// : 
+// {productID: 2, productName: 'P2', price: 3000}
+// 1
+// : 
+// {productID: 4, productName: 'P4', price: 500}
+// 2
+// : 
+// {productID: 3, productName: 'P3', price: 309}
+// 3
+// : 
+// {productID: 1, productName: 'Pl', price: 300}
+// 4
+// : 
+// {productID: 5, productName: 'P5', price: 100}
